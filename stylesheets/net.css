@@ -1,0 +1,749 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#first-block{
+    background-color: rgb(240,211,158);
+    height: 600px;
+}
+
+.first-image{
+    height: 300px;
+    background-image: url(../images/bb06b90800b533e9dd4ad4e49b930359.jpg);
+    background-repeat: no-repeat;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    width: 300px;
+    background-size: cover;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    background-position: right;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(119, 77, 38);
+}
+
+.a{
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    width: 100%;
+    height: 100%;
+}
+
+.subject {
+    font-family: MV Boli;
+    text-align: center;
+    padding-top: 110px;
+    font-size: xx-large;
+    color:rgb(78, 51, 25);
+}
+
+.subject h3{
+    font-size: medium;
+}
+
+
+
+.date{
+    font-family: MV Boli;
+    text-align: right;
+    padding-right: 100px;
+    font-size:large;
+    position: absolute;
+    left: 65%;
+    top: 35vh;
+    text-shadow: 1px 2px 2px #d374b3; 
+    color: rgb(119, 77, 38);  
+}
+
+#second-block{
+    background-color: white;
+    height: 250px;
+    margin: 0%;   
+}
+
+.ja{
+    font-family: MV Boli;
+    text-align: left;
+    padding-left: 150px;
+    font-size: larger;
+    margin-left: 0%;
+    text-shadow: 1px  2px 2px #d374b3;
+    color: rgb(119, 77, 38);
+    margin-top: 30px;
+}
+
+.contents{
+    font-family: NSimSun;
+    font-size: x-large;
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 50px;
+    text-align: center;
+    padding-right: 180px;
+    color: rgb(78, 51, 25);
+}
+
+#third-block{
+    height: 700px;
+    background-color:rgb(240,211,158);    
+}
+
+.c{
+    text-align: center;
+    padding-top: 100px;
+    font-family: NSimSun;
+    color: rgb(78, 51, 25);
+}
+
+.wrapper1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 606px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    font-family: NSimSum;   
+}
+
+.text{
+    background-color: white;    
+}
+
+p{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgb(78, 51, 25);
+}
+
+.image1{
+    background-image: url("../images/スイーツが食べたいけれど勇気が出ない女の子.png");
+    background-size:contain;    
+}
+
+.image2{
+    background-image: url("../images/絵を描く女の子.png");
+    background-size: contain;
+}
+
+.image3{
+    background-image: url("../images/夕方になりやっとやる気が出てパソコンで作業する女の子.png");
+    background-size: contain;
+}
+
+#fourth-block{
+    background-color: white;
+    height: 900px;
+}
+
+.e{
+    font-family: MV Boli;
+    text-align: left;
+    padding-left: 150px;
+    text-shadow: 1px 2px 2px #d374b3;
+    margin-top: 150px;
+    color: rgb(119, 77, 38);
+    font-size: larger;
+}
+
+.fourth-container1{
+    display: flex;
+    width: 60%;
+    margin: auto;   
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.fourth1{
+    opacity: 0;
+}
+
+.fourth-container1:hover .fourth1 {
+    display: block;
+    opacity: 1;
+    transition:2s;
+}
+
+.fourth-text1{
+    display: flex;
+    align-items:center;
+    width: 70%;
+    margin-left: 50px;
+    color: rgb(78, 51, 25);
+}
+
+
+.fourth-image1{
+    background-image: url("../images/carbon_identification.png");
+    background-size: contain;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: rgb(240,211,158);
+}
+
+.b{
+    font-family: NSimSun;
+    font-size: large;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+
+.fourth-container2{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-right: 150px;
+}
+
+.fourth-text2{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-right: 30px;
+    color: rgb(78, 51, 25);
+}
+
+.fourth-image2{
+    background-image: url("../images/fluent_people-community-add-20-regular.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: rgb(240,211,158);   
+}
+
+.fourth2{
+    opacity: 0;
+}
+
+.fourth-container2:hover .fourth2{
+    opacity: 1;
+    transition: 2s;
+}
+
+.f{
+    font-family: NSimSun;
+    font-size: large;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-container3{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-left: 150px;
+    padding-top: 30px;
+}
+
+.fourth-text3{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-left: 50px;
+    color: rgb(78, 51, 25);
+}
+
+.fourth-image3{
+    background-image: url("../images/tabler_stairs.png");
+    background-size: contain;
+    border-radius: 50%;
+    background-position: 20px 10px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: rgb(240,211,158);
+    background-repeat: no-repeat;
+}
+
+.fourth3{
+    opacity: 0;
+}
+
+.fourth-container3:hover .fourth3{
+    opacity: 1;
+    transition: 2s;
+}
+
+.g{
+    font-family: NSimSun;
+    font-size: large;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#fifth-block{
+    background-color: rgb(240,211,158);  
+    height: 1500px;
+}
+
+.fifth-box1{
+    display: flex;
+    padding-left: 60px;
+}
+
+.fifth-box2{
+    display: flex;
+    padding-left: 60px;
+}
+
+.fifth-box3{
+    display: flex;
+    padding-left: 60px;
+}
+
+.k{
+    font-family: MV Boli;
+    font-size:large;
+    text-shadow: 1px 2px 2px #d374b3;  
+    text-align: left;
+    padding-left: 200px;
+    color: rgb(119, 77, 38);
+    padding-top: 100px;
+}
+
+.l{
+    font-family: NSimSun;
+    font-size:larger;
+    text-shadow: 1px 2px 2px #d374b3;  
+    text-align: center;
+    color: rgb(119, 77, 38);
+}
+
+.fifth-container1{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.fifth-image1{
+    background-image: url(../images/X\ -\ 3.png);
+    background-size: contain;
+    height: 300px;
+    width: 150px;
+    background-repeat: no-repeat;
+    border-radius: 30px 35px 35px 30px;
+}
+
+.fifth-textbox1{
+    border: 1px solid black;
+    background-color: white;
+    height: 140px;
+    font-size: large;
+    text-align: center;   
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.m{
+    font-family: NSimSun;
+    font-size:larger;
+    text-shadow: 1px 2px 2px #d374b3;  
+    text-align: center;
+    color: rgb(119, 77, 38);
+}
+
+.fifth-container2{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.fifth-image2{
+    background-image: url(../images/iOS\ の画像.png);
+    background-size: contain;
+    height: 300px;
+    width: 150px;
+    background-repeat: no-repeat;
+    border-radius: 30px 40px 40px 30px;
+}
+
+.fifth-textbox2{
+    border: 1px solid black;
+    background-color: white;
+    height: 200px;
+    font-size: large;
+    text-align: center;
+    margin-top:10px;
+    padding: 20px;
+}
+
+.text{
+    border-bottom: 1px solid #000000;
+    color: rgb(78, 51, 25);
+}
+
+
+
+.fifth-container3{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.fifth-image3{
+    background-image: url(../images/X\ -\ 5.png);
+    background-size: contain;
+    height: 300px;
+    width: 150px;
+    background-repeat: no-repeat;
+    border-radius: 30px 40px 40px 30px;
+}
+
+.fifth-textbox3{
+    border: 1px solid black;
+    background-color: white;
+    height: 170px;
+    font-size: large;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.fifth-container6{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.t{
+    font-family: NSimSun;
+    font-size: larger;
+    text-shadow: 1px 2px 2px #d374b3;
+    text-align: center;
+    color: rgb(119, 77, 38);
+}
+
+.fifth-image6{
+    background-image: url(../images/X\ -\ 10.png);
+    background-size: contain;
+    height: 300px;
+    width: 150px;
+    background-repeat: no-repeat;
+    border-radius: 30px 35px 35px 30px;
+}
+
+.fifth-textbox6{
+    border: 1px solid black;
+    background-color: white;
+    height: 150px;
+    font-size: large;
+    text-align: center;
+    margin-top: 35px;
+    padding: 20px;
+}
+
+.n{
+    font-family: NSimSun;
+    font-size:larger;
+    text-shadow: 1px 2px 2px #d374b3; 
+    text-align: center;
+    color: rgb(119, 77, 38);
+}
+
+.fifth-container4{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.fifth-image4{
+    background-image: url(../images/X\ -\ 6.png);
+    background-size: contain;
+    height: 300px;
+    width: 150px;
+    background-repeat: no-repeat;
+    border-radius: 30px 35px 35px 30px;
+}
+
+.fifth-textbox4{
+    border: 1px solid black;
+    background-color: white;
+    height: 140px;
+    font-size: large;
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.o{
+    font-family: NSimSun;
+    font-size:larger;
+    text-shadow: 1px 2px 2px #d374b3; 
+    text-align: center;
+    color: rgb(119, 77, 38);
+}
+
+.p{
+    font-family: NSimSun;
+    font-size:larger;
+    text-shadow: 1px 2px 2px #d374b3; 
+    text-align: center;
+    color: rgb(119, 77, 38);
+}
+
+.fifth-container5{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.fifth-image5{
+    background-image: url(../images/X\ -\ 7.png);
+    background-size: contain;
+    height: 300px;
+    width: 150px;
+    background-repeat: no-repeat;
+    border-radius: 30px 40px 40px 30px;
+}
+
+.fifth-textbox5{
+    border: 1px solid black;
+    background-color: white;
+    height: 140px;
+    font-size: large;
+    text-align: center;
+    margin-top: 35px;
+    padding: 30px;
+}
+
+#sixth-block{  
+    background-color: white;
+    height: 1300px;
+}
+
+.card2{
+    margin-top: 250px;
+    margin-left: 60px;
+    display: flex;
+    padding-right: 50px;
+}
+
+.card2-text{
+    text-align: center;
+    color: rgb(78, 51, 25);
+    font-size: large;
+    margin-right: 120px;
+    width: 200px;
+}
+
+.sixth-image2{
+    background-image: url(../images/X\ -\ 3.png);
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
+
+
+.card4{
+    margin-top: 250px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.card4-text{
+    text-align: center;
+    color: rgb(78, 51, 25);
+    font-size: large;
+    margin-right: 100px;
+    width: 180px;
+}
+
+.sixth-image4{
+    background-image: url(../images/d92fbc280f9cfda3712f30805c6ad78a.jpg);
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
+
+.card1{
+    margin-top: 20px;
+    margin-bottom: 200px;
+    display: flex;
+    margin-left: 100px;
+    
+}
+
+.card1-text{
+    text-align: center;
+    color: rgb(78, 51, 25);
+    font-size: large;
+    margin-right: 100px;
+    width: 250px;
+}
+
+.sixth-image1{
+    background-image: url(../images/X\ -\ 4.png);
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
+
+.card3{
+    margin-top: 250px;
+    display: flex;
+    margin-left: 128px;
+    
+}
+
+.card3-text{
+    text-align: center;
+    color: rgb(78, 51, 25);
+    font-size: large;
+    margin-right: 100px;
+    width: 200px;
+}
+
+.sixth-image3{
+    background-image: url(../images/X\ -\ 5.png);
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
+
+.h{
+    font-family: MV Boli;
+    text-align: left;
+    padding-left: 350px;
+    text-shadow: 1px 2px 2px #d374b3;
+    margin-top: 100px;
+    color: rgb(119, 77, 38);
+    font-size: larger;
+}
+
+.box-a{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-top: 100px;
+    height: 1000px;
+}
+
+.leftbox{
+    border-right: 3px solid black;
+    height: 90%;
+    width: 50%;   
+}
+
+.rightbox{
+    height: 100%;
+    width: 50%; 
+}
+
+.q{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(78, 51, 25);
+    font-family:NSimSun ;
+    font-size: smaller;
+}
+
+#seventh-block{
+    background-color: rgb(240,211,158);
+    height: 350px;
+}
+
+.info-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.r{
+    font-family: MV Boli;
+    text-shadow: 1px 2px 2px #d374b3;
+    text-align: left;
+    padding-left: 250px;
+    padding-top: 50px;
+    color: rgb(119, 77, 38);
+    font-size: larger;
+}
+
+.seventh-text1{
+    text-align: center;
+    color: rgb(78, 51, 25);
+    font-family: NSimSun;
+}
+
+.seventh-image1{
+    background-image: url(../images/iOS\ の画像\ \(4\).jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+
+.seventh-text2{
+    text-align: center;
+    color: rgb(78, 51, 25);
+    font-family: NSimSun;
+}
+
+.seventh-image2{
+    background-image: url(../images/iOS\ の画像\ \(2\).jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+
+.seventh-text3{
+    text-align: center;
+    color: rgb(78, 51, 25);
+    font-family: NSimSun;
+}
+
+.seventh-image3{
+    background-image: url(../images/iOS\ の画像\ \(3\).jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+
+.s{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(78, 51, 25);
+}
+
+
+
+
